@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_Dark"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_Dark"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.75">
+
+        <ImageButton
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:id="@+id/speechButt2"
+            android:src="@drawable/highvolume" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:id="@+id/ready_text2" />
+
+    </LinearLayout>
+
+    <com.kotech.njoscribe.InkView2
+        android:id="@+id/ink_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="236dp"
+        android:background="@color/highlightLabel" />
+
+
+</LinearLayout>

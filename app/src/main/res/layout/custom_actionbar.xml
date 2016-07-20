@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/bg_Grey"
+    android:clickable="true"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/highlightLabel"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittexttitle"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_weight="60"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Title"
+
+        android:textColor="@color/highlightLabel"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        style="@style/ActionBar.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="8dp"
+
+        android:src="@drawable/ic_action_back" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@style/ActionBar.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingRight="8dp"
+
+        android:src="@android:drawable/ic_menu_save" />
+
+    <ImageButton
+        android:id="@+id/addNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingRight="8dp"
+        android:src="@drawable/ic_action_new"
+        android:visibility="gone" />
+</RelativeLayout>

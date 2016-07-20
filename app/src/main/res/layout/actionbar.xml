@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:background="@color/bg_Grey"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/actionbar_contents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/bg_Grey"
+        android:clickable="true"
+
+        android:soundEffectsEnabled="false">
+
+        <TextView
+            android:id="@+id/logotype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/Drawing_name"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/highlightLabel"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/overflow"
+                style="@style/ActionBar.Icon"
+                android:contentDescription="more actions"
+                android:onClick="clickOverflow"
+                android:src="@drawable/ic_action_overflow" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_Grey"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/tool_palette_gutter"
+    android:paddingLeft="@dimen/tool_palette_gutter">
+
+    <Button
+        android:id="@+id/undo"
+        style="@style/ActionBar.MenuItem"
+        android:contentDescription="undo image"
+        android:onClick="clickUndo"
+
+        android:text="@string/undo" />
+
+    <Button
+        android:id="@+id/clear"
+        style="@style/ActionBar.MenuItem"
+        android:contentDescription="clear image"
+        android:onClick="clickClear"
+
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/save"
+        style="@style/ActionBar.MenuItem"
+        android:contentDescription="save image"
+        android:onClick="clickSave"
+
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/Button01"
+        style="@style/ActionBar.MenuItem"
+        android:contentDescription="load image"
+        android:onClick="clickLoad"
+
+        android:text="@string/load" />
+
+    <Button
+        android:id="@+id/share"
+        style="@style/ActionBar.MenuItem"
+
+        android:contentDescription="share drawing"
+        android:onClick="clickShare"
+        android:text="@string/share" />
+
+</LinearLayout>

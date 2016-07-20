@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_demo_list">Items</string>
+    <string name="title_demo_detail">Demo Detail</string>
+    <string name="title_activity_demo">CircularFloatingActionMenu</string>
+    <string name="title_activity_menu_with_fab">Floating Action Button</string>
+    <string name="title_activity_menu_with_custom_action_button">Custom Action Button</string>
+    <string name="title_activity_menu_with_custom_animation">Custom Animation</string>
+    <string name="title_activity_menu_in_scroll_view">Menu in ScrollView Sample</string>
+    <string name="title_activity_system_overlay">System Overlay Menu Sample</string>
+    <string name="action_back">back</string>
+    <string name="hello">Hello World, RecoTest!</string>
+    <string name="app_name">NJO</string>
+    <string name="Drawing_name">Drawing</string>
+    <string name="title_activity_all_note">AllNote</string>
+    <string name="title_activity_test">Test</string>
+    <string name="share">Share</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="undo">Undo</string>
+    <string name="exit">Exit</string>
+    <string name="sharedrawing">Share Drawing:</string>
+    <string name="preference_main_settings_language_summary">Select Language</string>
+    <string name="alternatives">Alternatives</string>
+    <string name="preference_main_settings_language_key">preference_main_settings_language_key</string>
+    <string name="preference_main_settings_group">Main Settings</string>
+    <string name="ime_settings">Sample Settings</string>
+    <string name="preference_main_settings_language_title">Language</string>
+    <string name="preference_main_settings_language_default">en</string>
+    <string name="preference_main_settings_language_dialog_title">Language</string>
+    <string name="preference_main_settings_autosuggestion_key">preference_main_settings_autosuggestion_key</string>
+    <string name="preference_main_settings_autosuggestion_on">Show Suggestions</string>
+    <string name="preference_main_settings_autosuggestion_summary">If ON, suggestions list will automatically appear.</string>
+    <string name="preference_recognizer_separate_letters_key">preference_recognizer_separate_letters_key</string>
+    <string name="preference_recognizer_single_word_only_key">preference_recognizer_single_word_only_key</string>
+    <string name="preference_recognizer_separate_letters_on">Separate Letters</string>
+    <string name="preference_recognizer_separate_letters_summary">If ON, do not connect individual letters.</string>
+    <string name="preference_recognizer_single_word_only_on">Single Word Only</string>
+    <string name="preference_recognizer_single_word_only_summary">If ON, write only one word per recognition session.</string>
+    <string name="back_again_to_quit">Press back once more to exit</string>
+
+    <color name="splashBGColor">#fedf0d</color>
+
+    <string-array name="preference_main_settings_language_list">
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>English (Great Britain)</item>
+        <item>English (United States)</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>Nederlands</item>
+        <item>Norsk</item>
+        <item>Português (Brasil)</item>
+        <item>Português (Portugal)</item>
+        <item>Svenska</item>
+        <item>Suomi</item>
+    </string-array>
+    <string-array name="preference_main_settings_language_list_values">
+        <item>da</item>
+        <item>de</item>
+        <item>en_uk</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>nb</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>sv</item>
+        <item>fi</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="About_title">NJO</string>
+    <string name="about_us_copyright" translatable="false">Copyright 2014–2015 Kotech</string>
+    <string name="about_us_content" translatable="false">
+<![CDATA[
+   
+
+    <b>Developers</b><br/>
+    • Khalil Charfi<br/>
+    • Mohamed Ben Amor<br/>
+    • Mohamed Ali Affes<br/>
+    ]]>
+    </string>
+    <string name="title_activity_qrdecoder">QRdecoder</string>
+    <string name="title_activity_valid_qrcode">ValidQRcode</string>
+
+</resources>

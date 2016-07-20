@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_button_size">72dp</dimen>
+    <dimen name="action_button_content_margin">16dp</dimen>
+    <dimen name="action_button_margin">120dp</dimen>
+    <dimen name="action_menu_radius">96dp</dimen>
+
+    <dimen name="sub_action_button_size">36dp</dimen>
+    <dimen name="sub_action_button_content_margin">6dp</dimen>
+    <dimen name="keyboard_bottom_padding">0.06in</dimen>
+    <dimen name="candidate_vertical_padding">15sp</dimen>
+
+    <dimen name="ui_font_size">18sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="default_pen_size_min">4dp</dimen>
+    <dimen name="default_pen_size_max">24dp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_logo_width">48dip</dimen>
+    <dimen name="action_button_width">48dp</dimen>
+    <dimen name="action_button_padding_v">4dp</dimen>
+    <dimen name="tool_palette_gutter">6dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="red_action_button_size">108dp</dimen>
+    <dimen name="red_action_button_margin">48dp</dimen>
+
+    <dimen name="red_action_button_content_size">32dp</dimen>
+    <dimen name="red_action_button_content_margin">36dp</dimen>
+
+    <dimen name="red_action_menu_radius">96dp</dimen>
+    <dimen name="blue_sub_action_button_size">48dp</dimen>
+    <dimen name="blue_sub_action_button_content_margin">12dp</dimen>
+
+    <dimen name="radius_large">120dp</dimen>
+    <dimen name="radius_small">30dp</dimen>
+    <dimen name="radius_medium">72dp</dimen>
+    <dimen name="aa">128px</dimen>
+
+</resources>

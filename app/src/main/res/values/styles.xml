@@ -1,0 +1,117 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="MyTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/bg_Dark</item>
+
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton" />
+
+    <style name="ActionBar">
+        <item name="android:textSize">@dimen/ui_font_size</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="ActionBar.Bar">
+        <item name="android:background">#141414</item>
+    </style>
+
+    <style name="ActionBar.Text">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+
+    <style name="ActionBar.Button" parent="@android:style/Widget.Button.Small">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">@dimen/ui_font_size</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="ActionBar.Icon">
+        <item name="android:background">@drawable/action_button_bg</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/action_button_width</item>
+        <item name="android:paddingTop">@dimen/action_button_padding_v</item>
+        <item name="android:paddingBottom">@dimen/action_button_padding_v</item>
+    </style>
+
+    <style name="ActionBar.MenuItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/ui_font_size</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:background">@drawable/action_button_bg</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="ActionBar.Menu">
+        <item name="android:background">#FF000000</item>
+        <item name="android:gravity">right|top</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="AppTheme" parent="AppThemeDark">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppThemeDark" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/AppThemeDark.ActionBarStyle</item>
+    </style>
+
+    <style name="AppThemeDark.ActionBarStyle" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/DarkActionBarColor</item>
+    </style>
+
+
+
+
+
+
+
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+
+
+
+
+
+
+
+
+
+
+</resources>

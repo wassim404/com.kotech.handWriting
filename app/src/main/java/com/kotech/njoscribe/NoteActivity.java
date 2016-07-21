@@ -96,7 +96,7 @@ public class NoteActivity extends Activity implements TextToSpeech.OnInitListene
     }
 
     public void OnBack(View v) {
-        Intent in = new Intent(this, AllNote.class);
+        Intent in = new Intent(this, LevelsAlphabet.class);
         startActivity(in);
         finish();
         this.overridePendingTransition(R.anim.from_top, R.anim.to_bottom);
@@ -454,7 +454,7 @@ public class NoteActivity extends Activity implements TextToSpeech.OnInitListene
 
     private void saveAlertDialog(boolean isChanged) {
 
-        final Intent in = new Intent(NoteActivity.this, AllNote.class);
+        final Intent in = new Intent(NoteActivity.this, LevelsAlphabet.class);
         if (isChanged) {
             final AlertDialog alert;
 

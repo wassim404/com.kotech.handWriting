@@ -96,7 +96,7 @@ public class NoteActivity2 extends Activity implements TextToSpeech.OnInitListen
     }
 
     public void OnBack(View v) {
-        Intent in = new Intent(this, AllNote.class);
+        Intent in = new Intent(this, LevelsAlphabet.class);
         startActivity(in);
         finish();
         this.overridePendingTransition(R.anim.from_top, R.anim.to_bottom);

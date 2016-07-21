@@ -65,7 +65,7 @@ Button suppButt;
         @SuppressLint("ResourceAsColor")
         public void handleMessage(Message msg) {
             NoteActivity rt = (NoteActivity) getContext();
-          String carac=  rt.newString;
+          final String carac=  rt.newString;
 
          /*   recognizedTextContainer.removeAllViews();
             refresh = new ImageButton(getContext());
@@ -149,8 +149,17 @@ Button suppButt;
                         Log.i("b",b.toString());
                     }
             else {
-                        b=false;
-                        Toast.makeText(getContext(), " " + carac, Toast.LENGTH_SHORT).show();
+                        final Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                b=false;
+                                Toast.makeText(getContext(), " " + carac, Toast.LENGTH_SHORT).show();
+                                cleanView(true);
+                            }
+                        }, 5000);
+
+
                     }
 
 
@@ -282,7 +291,7 @@ Button suppButt;
         if (mCurrStroke >= 0) {
             int res = WritePadManager.recoAddPixel(mCurrStroke, x, y);
             if (res < 1) {
-                // TODO: error
+
             }
         }
     }
